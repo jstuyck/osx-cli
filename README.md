@@ -68,6 +68,14 @@ $ mdutil -i on /path/to/volume
 ```bash
 $ mdutil -i on /path/to/volume
 ```
+# Finder
+
+## Reveal Hidden Files and Folders
+
+```bash
+$ defaults write com.apple.finder AppleShowAllFiles -bool TRUE
+$ killall Finder
+```
 
 # Homebrew
 
